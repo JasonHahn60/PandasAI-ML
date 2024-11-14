@@ -5,15 +5,15 @@ Steps to Reproduce:
 
 1. Load the housing dataset:
  
-df = pd.read_csv('kc_house_data.csv')
+ df = pd.read_csv('kc_house_data.csv')
 
 2. Configure PandasAI with API key:
  
-os.environ['PANDASAI_API_KEY'] = 'your_api_key_here'
+ os.environ['PANDASAI_API_KEY'] = 'your_api_key_here'
 
 3. Guide PandasAI to generate a model with a prompt:
  
-response = pandas_ai.generate_code("Use prompt engineering to generate exactly what is needed")
+ response = pandas_ai.generate_code("Use prompt engineering to generate exactly what is needed")
 
 4. Result Visualization
 The model’s output includes a scatter plot comparing predicted prices to actual values, with a reference line to visualize accuracy, helping evaluate the model’s performance.
