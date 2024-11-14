@@ -4,15 +4,15 @@ This short project demonstrates a predictive model trained using PandasAI to for
 Steps to Reproduce:
 
 1. Load the housing dataset:
-2. 
+ 
 df = pd.read_csv('kc_house_data.csv')
 
 3. Configure PandasAI with API key:
-4. 
+ 
 os.environ['PANDASAI_API_KEY'] = 'your_api_key_here'
 
 5. Guide PandasAI to generate a model with a prompt:
-6. 
+ 
 response = pandas_ai.generate_code("Use prompt engineering to generate exactly what is needed")
 
 7. Result Visualization
